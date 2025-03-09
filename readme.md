@@ -215,6 +215,18 @@ FIND_BEST_DIR=./bash
 </div>
 </details>
 
+## Before we start...
+### Setup the environment
+```
+conda env create --file environment.yaml
+```
+### Training for final result
+```
+bash bash/run_main.sh
+```
+### Remarks
+There are no pretrained weight file(.pth). You must find the weight file from the internet to train some models.
+
 ## Data and Defect Description
 
 **Dataset Composition**: Industrial blade defect image data
