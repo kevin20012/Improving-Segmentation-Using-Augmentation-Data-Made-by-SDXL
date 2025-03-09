@@ -217,11 +217,11 @@ FIND_BEST_DIR=./bash
 
 ## Before we start...
 ### Setup the environment
-```
+```bash
 conda env create --file environment.yaml
 ```
 ### Training for final result
-```
+```bash
 bash bash/run_main.sh
 ```
 ### Remarks
