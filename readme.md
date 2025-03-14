@@ -216,15 +216,15 @@ FIND_BEST_DIR=./bash
 </details>
 
 ## Before we start...
-### Setup the environment
+**Setup the environment**
 ```bash
 conda env create --file environment.yaml
 ```
-### Training for final result
+**Training for final result**
 ```bash
 bash bash/run_main.sh
 ```
-### Remarks
+**Remarks**
 There are no pretrained weight file(.pth). You must find the weight file from the internet to train some models.
 
 ## Data and Defect Description
@@ -461,9 +461,4 @@ Performance improvement by target prompt
 
 # Acknowledgement
 * Our code has been modified based on the original project of [MMSegmentation](https://github.com/open-mmlab/mmsegmentation) by OpenMMLab
-* This work was supported by Institute of Information & communica-
-tions Technology Planning & Evaluation (IITP) grant funded by the Ko-
-rea government (MSIT) (No.RS-2022-00155915, Artificial Intelligence Con-
-vergence Innovation Human Resources Development (Inha University) and
-No.2021-0-02068, Artificial Intelligence Innovation Hub and IITP-2024-RS-
-2024-00360227, Leading Generative AI Human Resources Development).
+* This work was supported by Institute of Information & communications Technology Planning & Evaluation (IITP) grant funded by the Korea government (MSIT) (No.RS-2022-00155915, Artificial Intelligence Convergence Innovation Human Resources Development (Inha University) and No.2021-0-02068, Artificial Intelligence Innovation Hub and IITP-2024-RS-2024-00360227, Leading Generative AI Human Resources Development).
