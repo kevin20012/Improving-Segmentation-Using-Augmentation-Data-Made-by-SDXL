@@ -224,7 +224,7 @@ conda env create --file environment.yaml
 ```bash
 bash bash/run_main.sh
 ```
-**Remarks**
+**Remarks**    
 There are no pretrained weight file(.pth). You must find the weight file from the internet to train some models.
 
 ## Data and Defect Description
